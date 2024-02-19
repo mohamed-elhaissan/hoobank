@@ -9,6 +9,8 @@ body {
 }
 .navbar {
     padding: 20px 80px;
+    background: transparent;
+    backdrop-filter: blur(5px);
 
 }
 .navbar nav {

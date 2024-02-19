@@ -122,6 +122,86 @@
     }
     .tryservice {
         padding: 10px;
-        
+        width: 95%;
+        align-items: center;
+        justify-content: space-between;
+        margin: 50px 10px 50px 10px;
+    }
+    .tryservice span:first-of-type  h5{
+        font-size: 20px;
+    }
+    .tryservice span:first-of-type  p{
+        font-size: 14px;
+        width: 300px;
+    }
+    .tryservice span:nth-child(2){
+        width: 30%;
+    }
+    .tryservice .btn1 {
+        width: 100%;
+    }
+    footer {
+        padding: 10px;
+        margin: 50px 10px ;
+    }
+    .logo {
+        flex-wrap: wrap;
+    }
+    .logo2 {
+        flex-wrap: wrap;
     }
 }
+/* this medai  for laptops  */
+@media only screen and (min-width: 1024px) and (max-width:1200px){
+    .hero {
+        padding: 20px;
+        
+    }
+    .speartor {
+        padding: 20px;
+    }
+    .ceditcart {
+        padding: 20px;
+    }
+    .ceditcart div:first-of-type h2 {
+        font-size: 35px;
+        width: 500px;
+    }
+    .payement {
+        margin: 50px 10px 50px;
+        flex-direction: column-reverse;
+    }
+    .payement div:nth-of-type(2){
+        width: 100%;
+        text-align: center;
+        align-items: center;
+    }
+    .payement div:nth-of-type(2) h5 {
+        width: 100%;
+    }
+    .payement div:nth-of-type(2) h5 {
+        width: 100%;
+    }
+    .carddeal {
+        margin: 20px;
+    }
+    .carddeal div:first-of-type h5 {
+        font-size: 30px;
+        width: 350px;
+    }
+    .feedback {
+        padding: 0px;
+        margin: 10px;
+    }
+    .container {
+        flex-wrap: wrap;
+        flex: 1 1 auto;
+    }
+    .container div:not(.main_) {
+        padding: 10px;
+    }
+  }
+  /* Media query for phones */
+@media only screen and (max-width: 767px) {
+    
+  }
