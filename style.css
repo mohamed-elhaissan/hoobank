@@ -192,7 +192,7 @@ h2 span {
     width: 500px;
     opacity: .5;
 }
-.ceditcart button {
+.btn {
     width:200px; 
     padding:10px 20px;
     border-radius: 10px;
@@ -207,21 +207,21 @@ h2 span {
     transform-origin: left;
     cursor: pointer;
 }
-.ceditcart button:hover {
+.btn:hover {
     transform: scale(1.05);
 }
 
-.ceditcart button:before {
+.btn:before {
     content: '';
     width: 100%;
     height: 100%;
-    background: linear-gradient(to right,#33BBCF,#5CE1E6,#9DEDF0,#DEF9FA,#fff);
+    background: linear-gradient(to top,#33BBCF,#5CE1E6,#9DEDF0,#DEF9FA,#fff);
     position: absolute;
     left: 0;
     top: 0;
     z-index: -1;
 }
-.ceditcart button::after {
+.btn::after {
     content: '';
     width: 100%;
     height: 100%;
@@ -236,7 +236,7 @@ h2 span {
 
     z-index: -10;
 }
-.ceditcart button:hover::after {
+.btn:hover::after {
     transform: scaleX(1);
     z-index: -1;
     box-shadow: 0px 0px 20px 50px #33BBCF;
@@ -264,10 +264,203 @@ h2 span {
     opacity: .5;
 }
 .main i {
-    background-color: rgba(9, 151, 124, 0.1)
-    ;
+    background-color: rgba(9, 151, 124, 0.1);
     font-size: 40px;
     padding: 20px;
     border-radius: 50%;
     color: #00F6FF;
+}
+.decoration1 {
+    display: inline-block;
+    box-shadow: 0px 0px 10000px 100px #fff;
+    font-size: 100px;
+    color: white;
+    z-index: -100;
+    position: absolute;
+    left: -10%;
+    top: 50%px;
+}
+.payement {
+    position: relative;
+    padding: 10px 80px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;    
+}
+.payement div:nth-of-type(2){
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.payement div:nth-of-type(2) h5 {
+    font-size: 48px;
+    width: 500px;
+}
+.payement div:nth-of-type(2) p {
+    opacity: .5;
+    width: 500px;
+}
+.payement div:nth-of-type(2) span {
+    margin-top: 20px;
+}
+.payement div:nth-of-type(2) span img {
+    transition: transform .4s ease;
+}
+.payement div:nth-of-type(2) span img:hover {
+    transform: scale(1.05);
+}
+.carddeal {
+    display: flex;
+    color: #FFF;
+    padding: 10px 80px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.carddeal div:first-of-type {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.carddeal div:first-of-type h5 {
+    font-size: 48px;
+    width: 600px;
+    
+}
+.carddeal div:first-of-type p {
+    width: 500px;
+    opacity: .5;
+}
+.feedback {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    padding: 10px 80px;
+    position: relative;
+}
+.feedback .decoration {
+    top: 50%;
+    right: -10px;
+    buttom:40%;
+    box-shadow: 0px 0px 10000px 70px #00F6FF;
+}
+.people-tex {
+    margin-top: 50px;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+.people-tex h5 {
+    width: 500px;
+    font-size: 48px;
+}
+.people-tex p {
+    width: 450px;
+    font-size:18px;
+    opacity: .5;
+}
+.container {
+    display:flex;
+    justify-content: space-between;
+    gap: 20px;
+    transition: all .5s ease;
+}
+.container div:not(.main_) {
+    display: flex;
+    height: 375px;
+    flex-direction: column;
+    gap: 40px;
+    padding: 20px 40px;
+    width: 30%;
+    margin-top: 20px;
+    background: transparent;
+    border-radius: 20px;
+    transition: all .4s ease;
+}
+.container div:not(.main_):hover {
+    background: linear-gradient(to top,#14101D,#42475B);
+    transform: scale(1.05);
+}
+.container:hover .blur {
+    opacity: .5;
+    filter: blur(5px);
+}
+.container .blur:hover {
+    opacity: 1;
+    filter: blur(0px);
+}
+.container div p {
+    width: 300px;
+
+}
+.main_ {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    align-items: center;
+    gap: 20px;
+}
+.main_ span p:first-of-type {
+    font-size: 20px;
+    font-weight: 400;
+}
+.main_ span p:last-of-type {
+    font-size: 20px;
+    font-weight: 400;
+    opacity: .5;
+}
+.main_ span {
+    display: inline-block;
+    width: 200px;
+}
+.speartor-icons {
+    display: flex;
+    padding: 10px 80px;
+    justify-content: space-evenly;
+    height: auto;
+    align-items: center;
+    margin-top: 50px;
+}
+.tryservice {
+    margin: 10px 80px;
+    padding: 20px;
+    border-radius: 20px;
+    background: linear-gradient(to top,#14101D,#42475B);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 20px;
+    margin-top: 80px;
+}
+.tryservice span:first-of-type  h5 {
+    font-size: 48px;
+    color: #fff;
+}
+.tryservice span:first-of-type p {
+    width: 400px;
+    color: #fff;
+    opacity: .5;
+    margin-top: 20px;
+}
+.btn1 {
+    width:200px; 
+    padding:10px 20px;
+    border-radius: 10px;
+    font-family:'poppins',sans-serif;
+    font-size: 18px;
+    background: linear-gradient(to top,#33BBCF,#5CE1E6,#9DEDF0,#DEF9FA,#fff);
+    border: none;
+    position: relative;
+    color: #000;
+    overflow: hidden;
+    transition: box-shadow .3s ease,transform .4s ease;
+    transform-origin: center;
+    cursor: pointer;
+}
+
+.btn1:hover {
+    transform: scale(1.05);
+    
 }
