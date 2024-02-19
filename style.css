@@ -464,3 +464,18 @@ h2 span {
     transform: scale(1.05);
     
 }
+.animation {
+    transition: opacity .4s ease,filter .4s ease;
+}
+.blur {
+    transition: opacity .4s ease,filter .4s ease,transform .5s ease;
+}
+.animation:hover .blur {
+    opacity: .5;
+    filter: blur(3px);
+}
+.animation .blur:hover {
+    opacity: 1;
+    filter: blur(0px);
+    transform: scale(1.05);
+}
