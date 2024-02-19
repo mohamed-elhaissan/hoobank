@@ -1,0 +1,127 @@
+@media only screen and (min-width: 600px) and (max-width: 1024px) {
+    .hero {
+        padding: 10px;
+        flex-direction: column;
+
+    }
+    .navbar {
+        padding: 10px 40px;
+    }
+    .content1 {
+        width: 100%;
+        margin-top: 20px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .content1 p {
+        text-align: center;
+        width: 100%;
+    }
+    .content2 {
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+    }
+    .speartor {
+        width: 100%;
+        padding: 10px;
+    }
+    .speartor p {
+        font-size: 28px;
+    }
+    .speartor span {
+        font-size: 18px;
+        margin: 0px 5px;
+    }
+    .ceditcart {
+        flex-direction: column;
+        align-items: center;
+        margin: 50px;
+        padding-left: 0px;
+    }
+    .ceditcart div:first-of-type {
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        
+    }
+    .ceditcart div:first-of-type h2 {
+        text-align: center;
+        font-size: 35px;
+        width: 100%;
+    }
+    .ceditcart div:first-of-type p {
+        width: 100%;
+        text-align: center;
+    }
+    .payement  {
+        flex-direction: column;
+    }
+    .payement div:last-of-type {
+        text-align: center;
+        margin-bottom: 80px;
+    }
+    .carddeal {
+        flex-direction: column;
+        padding: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+    .carddeal div:first-of-type {
+        width: 100%;
+        padding: 10px;
+        text-align: center;
+        justify-content: center;
+        margin-bottom: 80px;
+    }
+    .carddeal div:first-of-type h5 {
+        font-size: 40px;
+        width: 100%;
+    }
+    .carddeal div:first-of-type p {
+        width: 100%;
+        
+    }
+    .carddeal button {
+        align-self: center;
+        justify-self: center;
+    }
+    .feedback {
+        padding: 10px;
+    }
+    .people-tex {
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+    }
+    .container {
+        flex-direction: column;
+        margin-top: 50px;
+        padding: 10px;
+        align-items: center;
+        justify-content: center;
+    }
+    .container div:not(.main_){
+        width: 90%;
+        border: 1px solid rgba(255, 255, 255, .1);
+        gap: 20px;
+        padding: 20px;
+        height: auto;
+    }
+    .container div:not(.main_) p{
+        width: 100%;
+    }
+    .speartor-icons {
+        padding: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+    .speartor-icons img {
+        width: calc(100/4) !important;
+    }
+    .tryservice {
+        padding: 10px;
+        
+    }
+}
