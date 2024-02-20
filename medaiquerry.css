@@ -203,5 +203,213 @@
   }
   /* Media query for phones */
 @media only screen and (max-width: 767px) {
-    
+    .navbar {
+        padding: 10px;
+        margin: 10px ;
+    }
+    .navbar nav ul{
+        display: none;
+    }
+    .hero {
+        flex-direction: column;
+        padding: 0px;
+    }
+    .content1 {
+        padding: 0px;
+        width: 100%;
+    }
+    .content1 div:first-of-type {
+        margin-top: 20px;
+        width: 100%;
+    }
+    .con {
+        font-size: 14px;
+    }
+    .hero h2 {
+        font-size: 40px;
+        text-align: center;
+        margin-top: 40px;
+    }
+    .hero h2 + p {
+        
+        text-align: center;
+        width: 90%;
+    }
+    .animatio {
+        left: 100%;
+    }
+    .content2 {
+        width: 100%;
+    }
+    .content2 img {
+        width: 100%;
+        height: auto;
+        margin: 40px 0px;
+    }
+    .speartor {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        justify-content: center;
+    }
+    .speartor p,.speartor span  {
+        font-size: 12px;
+    }
+    .ceditcart {
+        flex-direction: column;
+        padding: 0px;
+        align-items: center;
+    }
+    .ceditcart div:first-of-type {
+        width: 100%;
+        align-items: center;
+    }
+    .ceditcart div:first-of-type h2 {
+        font-size: 40px;
+        width: 100%;
+       text-align: center;
+    }
+    .ceditcart div:first-of-type p {
+        width: 100%;
+        text-align: center;
+    }
+    .container div:not(.main_):hover {
+        transform: scale(1.01);
+    }
+    .payement {
+        flex-direction: column;
+        padding: 0px;
+        margin-bottom: 100px;
+    }
+    .payement .img img{
+        width: 100%;
+        margin: 50px 10px;
+        height: auto;
+    }
+    .payement div:nth-of-type(2){
+        width: 100%;
+        text-align: center;
+        margin: 10px ;
+    }
+    .payement div:nth-of-type(2) h5 {
+        font-size: 40px;
+        width: 100%;
+    }
+    .payement div:nth-of-type(2) p {
+        font-size: 15px;
+        width: 100%;
+    }
+    .carddeal {
+        flex-direction: column-reverse;
+        padding: 0px;
+        margin: 10px;
+    }
+    .carddeal div:first-of-type {
+        width: 100%;
+        text-align: center;
+        align-items: center;
+
+    }
+    .carddeal div:first-of-type h5 {
+        width: 100%;
+        font-size: 40px;
+    }
+    .carddeal div:first-of-type p {
+        width: 100%;
+        font-size: 15px;
+    }
+    .carddeal div:last-of-type img{
+        width: 100%;
+    }
+    .carddeal div:last-of-type {
+        margin-bottom: 50px;
+    }
+    .feedback {
+        padding: 0px;
+    }
+    .feedback div:first-of-type {
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+        margin-top: 100px;
+    }
+    .feedback div:first-of-type h5 {
+        font-size: 40px;
+        width: 100%;
+    }
+    .feedback div:first-of-type p {
+        width: 100%;
+        font-size: 15px;
+    }
+    .container {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 90%;
+        margin: 0px 20px 0px 8px;
+    }
+    .container div:not(.main_) {
+        padding: 10px;
+        margin: 10px;
+        align-items: center;
+        width: 100%;
+        border-bottom: 1px solid rgba(255, 255, 255, .1);
+        height: auto;
+        gap: 0px;
+    }
+    .container div:not(.main_) p{
+        width: 100%;
+        text-align: center;
+    }
+    .container div .main_ {
+        margin-top: 20px;
+    }
+    .container .main_ {
+        justify-content: flex-start;
+        flex-direction: row;
+    }
+    .main_ span {
+        width: 100%;
+    }
+    .speartor-icons {
+        display:flex;
+    }
+    .speartor-icons a img {
+        width: 90%;
+        height: 90%;
+        margin-bottom: 20px;
+    }
+    .tryservice {
+        flex-direction: column;
+        margin: 50px 10px;
+        text-align: center;
+    }
+    .tryservice span {
+        width: 90%;
+        align-items: center;
+    }
+    .tryservice span h5 {
+        font-size: 40px;
+    }
+    .tryservice span:first-of-type p {
+        width: 100%;
+        
+        font-size: 16px;
+    }
+    footer {
+        padding: 0px;
+        margin: 50px 10px;
+        align-items: center;
+    }
+    .logo {
+        flex-direction: column;
+        padding: 0px;
+        align-items: center;
+        text-align: center;
+    }
+    footer div:last-of-type {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
   }

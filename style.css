@@ -418,6 +418,7 @@ h2 span {
 .speartor-icons {
     display: flex;
     padding: 10px 80px;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     height: auto;
     align-items: center;
