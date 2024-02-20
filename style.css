@@ -115,6 +115,8 @@ h2 span {
     background-image: linear-gradient(to right, #DEF9FA,#BEF3F5,#9DEDF0,#7DE7EB,#5CE1E6,#33BBCF);
     background-clip: text;
     color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     
 }
 .content1 {
@@ -169,6 +171,8 @@ h2 span {
     background: linear-gradient(to right,#33BBCF,#fff);
     background-clip: text;
     color: transparent ;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .ceditcart {
     display: flex;
